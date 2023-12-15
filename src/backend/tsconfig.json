@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "../../dist/backend",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es2020",
+        "rootDir": ".",
+        "composite": true,
+        "baseUrl": ".",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": false,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+    }
+}

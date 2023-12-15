@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "../../dist/frontend",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "strict": false,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true
+    }
+}

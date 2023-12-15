@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "react-app"
+    ],
+    "rules": {
+        "import/no-anonymous-default-export": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "indent": [
+            "error",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

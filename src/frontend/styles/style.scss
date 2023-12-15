@@ -1,0 +1,40 @@
+@mixin vertical-padding {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#login {
+    >div {
+        margin: 0 0 16px 0;
+    }
+}
+
+#todos {
+    #todo-form {
+        margin: 24px auto;
+        @include vertical-padding;
+    }
+
+    #todos-list {
+        @include vertical-padding;
+
+        .sorting-title {
+            cursor: pointer;
+        }
+    }
+
+    .row {
+        [class*="col-"] {
+            @include vertical-padding;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+#messages {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 10px 10px 0;
+}
